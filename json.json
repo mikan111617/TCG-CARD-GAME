@@ -1,0 +1,12 @@
+{
+    "name": "Player1HandArea",
+    "type": "Panel",
+    "anchorPreset": "bottomcenter",
+    "position": [0, -50], 
+    "size": [800, 140],
+    "layoutGroup": "horizontal",
+    "layoutSettings": {
+      "spacing": 5,
+      "childAlignment": 4
+    }
+}

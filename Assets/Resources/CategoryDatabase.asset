@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3546754406292740183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d9af0378a39049bc1a0d080ec10c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  categoryId: CAT_250325004
+  categoryName: "\u7570\u4E16\u754C"
+  description: 
+  categoryColor: {r: 0.6800481, g: 1, b: 0, a: 1}
+  categoryIcon: {fileID: 0}
+  relatedCategories: []
+--- !u!114 &-2775813228886069040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d9af0378a39049bc1a0d080ec10c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  categoryId: CAT_250325001
+  categoryName: "\u5973\u6027"
+  description: 
+  categoryColor: {r: 1, g: 0, b: 0.7942362, a: 1}
+  categoryIcon: {fileID: 0}
+  relatedCategories: []
+--- !u!114 &-1200308169009662029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d9af0378a39049bc1a0d080ec10c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  categoryId: CAT_250325003
+  categoryName: "\u9B54\u6CD5"
+  description: 
+  categoryColor: {r: 0, g: 0.5007267, b: 1, a: 1}
+  categoryIcon: {fileID: 0}
+  relatedCategories: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CategoryDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::CategoryDatabase
+  categories:
+  - {fileID: -2775813228886069040}
+  - {fileID: 8578165465137418227}
+  - {fileID: -1200308169009662029}
+  - {fileID: -3546754406292740183}
+  - {fileID: 4083155346163728970}
+--- !u!114 &4083155346163728970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d9af0378a39049bc1a0d080ec10c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  categoryId: CAT_250325005
+  categoryName: "\u5973\u795E"
+  description: 
+  categoryColor: {r: 1, g: 0.9601756, b: 0, a: 1}
+  categoryIcon: {fileID: 0}
+  relatedCategories: []
+--- !u!114 &8578165465137418227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1d9af0378a39049bc1a0d080ec10c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  categoryId: CAT_250325002
+  categoryName: "\u30AA\u30BF\u30AF"
+  description: 
+  categoryColor: {r: 0.10835719, g: 1, b: 0, a: 1}
+  categoryIcon: {fileID: 0}
+  relatedCategories: []

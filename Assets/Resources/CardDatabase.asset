@@ -1,0 +1,944 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9019785933932580112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  cardName: "\u60AA\u5922\u306E\u5BA3\u544A\u8005\u3000\u30DB\u30E0\u30E9"
+  description: "\u30FB\u3053\u306E\u30AB\u30FC\u30C9\u3092\u542B\u3081\u30665\u7A2E\u985E\u306E\u7279\u6B8A\u52DD\u5229\u30AB\u30FC\u30C9\u304C\u63C3\u3063\u305F\u3068\u304D\u52DD\u5229\u3059\u308B"
+  artwork: image_00025_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 100
+  defensePower: 100
+  effects:
+  - {fileID: -2657464734423184661}
+  categories:
+  - {fileID: -6678926237475497801, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+--- !u!114 &-8805086212767809730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 12
+  cardName: "\u4E0D\u601D\u8B70\u306A\u512A\u7B49\u751F\u3000\u30AB\u30DF\u30E9"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u5B66\u751F\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u3092\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: image_00080_
+  cost: 0
+  type: 0
+  element: 5
+  attackPower: 300
+  defensePower: 0
+  effects:
+  - {fileID: -7177521034741862278}
+  categories:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-8325945572605344937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf07eb20eea454408791a50b2b44aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: "\u6368\u3066\u672D\u56DE\u53CE"
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 2
+--- !u!114 &-8306630405606919619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77e9f4d3aea28140b1664e2efb45473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  requiredCards: 5
+  requiredEffectName: "\u7279\u6B8A\u52DD\u5229\u52B9\u679C"
+--- !u!114 &-8194923603353094600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d46d0812d1eeb1408e873ae481c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 15
+  cardName: "\u7981\u65AD\u306E\u679C\u5B9F"
+  description: "\u30FB\u76F8\u624B\u30D7\u30EC\u30A4\u30E4\u30FC\u306B1000\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
+  artwork: apple
+  cost: 1
+  type: 1
+  activationTiming: 
+  spellType: 0
+  effectValue: 0
+  effects:
+  - {fileID: 0}
+  canActivateOnOpponentTurn: 1
+--- !u!114 &-7960130286076792936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 5
+  cardName: "\u604B\u611B\u5927\u597D\u304D\u3000\u30D2\u30EC\u30F3"
+  description: "\u30FB\u3053\u306E\u30AB\u30FC\u30C9\u3092\u542B\u3081\u30665\u7A2E\u985E\u306E\u7279\u6B8A\u52DD\u5229\u30AB\u30FC\u30C9\u304C\u63C3\u3063\u305F\u3068\u304D\u52DD\u5229\u3059\u308B"
+  artwork: image_00029_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 100
+  defensePower: 0
+  effects:
+  - {fileID: -8306630405606919619}
+  categories:
+  - {fileID: 0}
+--- !u!114 &-7802399085650415343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41342df1981f3c949ae492b3d3b6c5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+--- !u!114 &-7798723280671417743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ebc2a513b259a4b89d00ac20f502b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 19
+  cardName: "\u738B\u90FD\u8FD1\u90CA\u306E\u8857\u3000\u30EA\u30FC\u30B7\u30A7\u30EB"
+  description: "\u30FB1\u30BF\u30FC\u30F3\u306B1\u5EA6500\u30E9\u30A4\u30D5\u56DE\u5FA9\n\u30FB\u76F8\u624B\u306E\u624B\u672D\u898B\u3048\u308B"
+  artwork: suzu_00249_
+  cost: 4
+  type: 2
+  effects: []
+  affectedCategories: []
+  affectedElements: 00000000030000000600000001000000040000000200000005000000
+  affectsOwnField: 1
+  affectsOpponentField: 0
+  modifiesStats: 0
+  attackModifier: 0
+  defenseModifier: 0
+  allowsDeckSearch: 0
+  allowsGraveyardRecovery: 0
+  oncePerTurn: 1
+  revealOpponentHand: 1
+  preventBattleDestruction: 0
+  preventSpellDestruction: 0
+  providesLifeRecovery: 1
+  lifeRecoveryAmount: 500
+--- !u!114 &-7557526618583462151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77e9f4d3aea28140b1664e2efb45473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  requiredCards: 5
+  requiredEffectName: "\u7279\u6B8A\u52DD\u5229\u52B9\u679C"
+--- !u!114 &-7177521034741862278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94946fbfed213a0469ad2f47f2c584c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &-7000385808447646623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94946fbfed213a0469ad2f47f2c584c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &-6924877244118226115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77e9f4d3aea28140b1664e2efb45473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  requiredCards: 5
+  requiredEffectName: "\u7279\u6B8A\u52DD\u5229\u52B9\u679C"
+--- !u!114 &-6783763616484269250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a0f37ba25845646942cbd51ce2f2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  drawCount: 1
+--- !u!114 &-4696412912696308956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77e9f4d3aea28140b1664e2efb45473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  requiredCards: 5
+  requiredEffectName: "\u7279\u6B8A\u52DD\u5229\u52B9\u679C"
+--- !u!114 &-4451062126375044929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 14
+  cardName: "\u3082\u3075\u3082\u3075\u306E\u6BDB\u4E26\u307F\u3000\u30EB\u30CA"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u5F15\u304F"
+  artwork: nor_image_00113_
+  cost: 1
+  type: 0
+  element: 2
+  attackPower: 100
+  defensePower: 100
+  effects:
+  - {fileID: 6557817855753120859}
+  categories:
+  - {fileID: 0}
+--- !u!114 &-3792782796796422652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  cardName: "\u5F15\u304D\u8FBC\u3080\u8005\u3000\u30DB\u30E0\u30E9"
+  description: "\u30FB\u3053\u306E\u30AB\u30FC\u30C9\u3092\u542B\u3081\u30665\u7A2E\u985E\u306E\u7279\u6B8A\u52DD\u5229\u30AB\u30FC\u30C9\u304C\u63C3\u3063\u305F\u3068\u304D\u52DD\u5229\u3059\u308B"
+  artwork: image_00026_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 100
+  defensePower: 100
+  effects:
+  - {fileID: -4696412912696308956}
+  categories:
+  - {fileID: 0}
+--- !u!114 &-3564847442791693582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 9
+  cardName: "\u5965\u6D25\u5BAE\u306E\u5973\u795E"
+  description: "\u30FB\u5973\u795E\u306E\u653B\u6483\u529B\u3001\u5B88\u5099\u529B\u30922000\u4E0A\u3052\u308B\u3002\n\u30FB\u6368\u3066\u672D\u304B\u3089\u5973\u795E\u306E\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u30922\u679A\u624B\u672D\u306B\u52A0\u3048\u308B\u3002"
+  artwork: card2
+  cost: 10
+  type: 0
+  element: 6
+  attackPower: 4000
+  defensePower: 3500
+  effects:
+  - {fileID: 1005011530804524959}
+  - {fileID: -8325945572605344937}
+  categories:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &-3506806030601895752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94946fbfed213a0469ad2f47f2c584c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &-2691302879643357348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealEffect
+  effectName: 
+  effectDescription: 
+  healAmount: 500
+  targetSelf: 1
+--- !u!114 &-2657464734423184661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77e9f4d3aea28140b1664e2efb45473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  requiredCards: 5
+  requiredEffectName: "\u7279\u6B8A\u52DD\u5229\u52B9\u679C"
+--- !u!114 &-2370560521753741055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a0f37ba25845646942cbd51ce2f2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  drawCount: 2
+--- !u!114 &-2148797428248984372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 22
+  cardName: "\u4E16\u754C\u306E\u7BA1\u7406\u8005\u3000\u30A8\u30EC\u30B7\u30A2"
+  description: 
+  artwork: image_00223_
+  cost: 1
+  type: 0
+  element: 4
+  attackPower: 1000
+  defensePower: 1000
+  effects: []
+  categories: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40799198be8e414aae954fed88e8de5, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: 
+  characterCards:
+  - {fileID: 8590544441633087136}
+  - {fileID: 712672045736031351}
+  - {fileID: -9019785933932580112}
+  - {fileID: -3792782796796422652}
+  - {fileID: -7960130286076792936}
+  - {fileID: 1326388391090601355}
+  - {fileID: 1480256571844441618}
+  - {fileID: 1310194881592377397}
+  - {fileID: -3564847442791693582}
+  - {fileID: 1441404316221644201}
+  - {fileID: 5661858879577001897}
+  - {fileID: -8805086212767809730}
+  - {fileID: 7956587183862515639}
+  - {fileID: -4451062126375044929}
+  - {fileID: -2148797428248984372}
+  spellCards:
+  - {fileID: -8194923603353094600}
+  - {fileID: 3619247034252819080}
+  - {fileID: 8667684076887283765}
+  - {fileID: 2501135789501718882}
+  - {fileID: 4280390039466172076}
+  fieldCards:
+  - {fileID: -7798723280671417743}
+  - {fileID: 6811808789180634415}
+--- !u!114 &712672045736031351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  cardName: "\u66F8\u5EAB\u306E\u756A\u4EBA\u3000\u30DE\u30DF"
+  description: "\u30FB\u30AA\u30BF\u30AF\u30AB\u30FC\u30C9\u306E\u5B88\u5099\u529B\u3092500\u4E0A\u3052\u308B\u3002"
+  artwork: image_00013_
+  cost: 1
+  type: 0
+  element: 6
+  attackPower: 500
+  defensePower: 1000
+  effects:
+  - {fileID: 0}
+  categories:
+  - {fileID: -736069267618501051, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+  - {fileID: -6678926237475497801, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+--- !u!114 &1005011530804524959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d72f03bf46d64443a59991897f7357e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  attackBoost: 2000
+  defenseBoost: 2000
+--- !u!114 &1310194881592377397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 8
+  cardName: "\u653E\u6D6A\u306E\u5263\u58EB\u3000\u30A8\u30B9\u30EA\u30F3"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u7570\u4E16\u754C\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: image_00002_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 1600
+  defensePower: 1200
+  effects:
+  - {fileID: 2988735750680947310}
+  categories:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &1326388391090601355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 6
+  cardName: "\u7591\u60D1\u306E\u8FFD\u8DE1\u3000\u30D2\u30EC\u30F3"
+  description: "\u30FB\u3053\u306E\u30AB\u30FC\u30C9\u3092\u542B\u3081\u30665\u7A2E\u985E\u306E\u7279\u6B8A\u52DD\u5229\u30AB\u30FC\u30C9\u304C\u63C3\u3063\u305F\u3068\u304D\u52DD\u5229\u3059\u308B"
+  artwork: image_00027_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 100
+  defensePower: 0
+  effects:
+  - {fileID: -7557526618583462151}
+  categories:
+  - {fileID: 0}
+--- !u!114 &1441404316221644201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 10
+  cardName: "\u4E2D\u6D25\u5BAE\u306E\u5973\u795E"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u5973\u795E\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B\n\u30FB\u6368\u3066\u672D\u304B\u3089\u5973\u795E\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: card3
+  cost: 8
+  type: 0
+  element: 6
+  attackPower: 3500
+  defensePower: 3500
+  effects:
+  - {fileID: -3506806030601895752}
+  - {fileID: 7672658696346657582}
+  categories:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &1480256571844441618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 7
+  cardName: "\u611B\u618E\u306E\u5316\u8EAB\u3000\u30D2\u30EC\u30F3"
+  description: "\u30FB\u3053\u306E\u30AB\u30FC\u30C9\u3092\u542B\u3081\u30665\u7A2E\u985E\u306E\u7279\u6B8A\u52DD\u5229\u30AB\u30FC\u30C9\u304C\u63C3\u3063\u305F\u3068\u304D\u52DD\u5229\u3059\u308B"
+  artwork: image_00030_
+  cost: 4
+  type: 0
+  element: 6
+  attackPower: 100
+  defensePower: 0
+  effects:
+  - {fileID: -6924877244118226115}
+  categories:
+  - {fileID: 0}
+--- !u!114 &1952536669009511222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f6d767f4d538046ac72e196d322c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  costReduction: 2
+--- !u!114 &2501135789501718882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d46d0812d1eeb1408e873ae481c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 18
+  cardName: "\u5947\u8DE1\u306E\u4E00\u624B"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30922\u679A\u30C9\u30ED\u30FC\u3059\u308B"
+  artwork: image_00228_
+  cost: 5
+  type: 1
+  activationTiming: 
+  spellType: 0
+  effectValue: 0
+  effects:
+  - {fileID: -2370560521753741055}
+  canActivateOnOpponentTurn: 1
+--- !u!114 &2988735750680947310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94946fbfed213a0469ad2f47f2c584c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &3046023507358685231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageEffect
+  effectName: 
+  effectDescription: 
+  damageAmount: 1000
+  targetOpponent: 1
+--- !u!114 &3619247034252819080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d46d0812d1eeb1408e873ae481c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 16
+  cardName: "\u30B2\u30FC\u30E0\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB"
+  description: "\u30FB\u653B\u6483\u5BFE\u8C61\u3092\u6307\u5B9A\u306E\u30AB\u30FC\u30C9\u306B\u5165\u308C\u66FF\u3048\u308B"
+  artwork: illustraion_00107_
+  cost: 1
+  type: 1
+  activationTiming: 
+  spellType: 0
+  effectValue: 0
+  effects:
+  - {fileID: -7802399085650415343}
+  canActivateOnOpponentTurn: 1
+--- !u!114 &3834244814809464717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94946fbfed213a0469ad2f47f2c584c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &4280390039466172076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d46d0812d1eeb1408e873ae481c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 21
+  cardName: "\u591C\u66F4\u3051\u306E\u4F11\u606F"
+  description: "\u30FB\u30E9\u30A4\u30D5\u30DD\u30A4\u30F3\u30C8\u30921500\u56DE\u5FA9\u3059\u308B"
+  artwork: image_00004_
+  cost: 1
+  type: 1
+  activationTiming: 
+  spellType: 0
+  effectValue: 0
+  effects:
+  - {fileID: 0}
+  canActivateOnOpponentTurn: 1
+--- !u!114 &5213877329202170733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatModifierEffect
+  effectName: 
+  effectDescription: 
+  attackBonus: 0
+  defenseBonus: 500
+  targetCategory: 
+--- !u!114 &5661858879577001897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 11
+  cardName: "\u8FBA\u6D25\u5BAE\u306E\u5973\u795E"
+  description: "\u30FB\u5973\u795E\u30AB\u30FC\u30C9\u306E\u30B3\u30B9\u30C8\u30922\u4E0B\u3052\u308B"
+  artwork: card4
+  cost: 8
+  type: 0
+  element: 6
+  attackPower: 3000
+  defensePower: 3000
+  effects:
+  - {fileID: 1952536669009511222}
+  categories:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &6557817855753120859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a0f37ba25845646942cbd51ce2f2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: 
+  effectDescription: 
+  drawCount: 1
+--- !u!114 &6811808789180634415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ebc2a513b259a4b89d00ac20f502b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 20
+  cardName: "\u9B54\u6CD5\u4F7F\u3044\u306E\u5BB6"
+  description: "\u30FB1\u30BF\u30FC\u30F3\u306B1\u5EA6\u30C7\u30C3\u30AD\u304B\u3089\u9B54\u6CD5\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: suzu_00098_
+  cost: 5
+  type: 2
+  effects: []
+  affectedCategories:
+  - {fileID: 0}
+  affectedElements: 
+  affectsOwnField: 1
+  affectsOpponentField: 0
+  modifiesStats: 0
+  attackModifier: 0
+  defenseModifier: 0
+  allowsDeckSearch: 1
+  allowsGraveyardRecovery: 0
+  oncePerTurn: 1
+  revealOpponentHand: 1
+  preventBattleDestruction: 0
+  preventSpellDestruction: 0
+  providesLifeRecovery: 1
+  lifeRecoveryAmount: 500
+--- !u!114 &7672658696346657582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf07eb20eea454408791a50b2b44aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectName: "\u6368\u3066\u672D\u56DE\u53CE"
+  effectDescription: 
+  targetCategory: {fileID: 0}
+  maxCards: 1
+--- !u!114 &7956587183862515639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 13
+  cardName: "\u53EF\u6190\u306A\u5C11\u5973\u3000\u30B9\u30BA"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u52D5\u7269\u30AB\u30C6\u30B4\u30EA\u30FC\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: illustraion_00096_
+  cost: 0
+  type: 0
+  element: 2
+  attackPower: 100
+  defensePower: 100
+  effects:
+  - {fileID: 3834244814809464717}
+  categories:
+  - {fileID: 0}
+  - {fileID: -6678926237475497801, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+--- !u!114 &8590544441633087136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0d4d8d3723b7342951fc3cfdf2459a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  cardName: "\u30AA\u30BF\u30AF\u5C11\u5973\u3000\u30DE\u30DF"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u30AA\u30BF\u30AF\u30AB\u30FC\u30C9\u30921\u679A\u624B\u672D\u306B\u52A0\u3048\u308B"
+  artwork: image_00014_
+  cost: 0
+  type: 0
+  element: 6
+  attackPower: 50
+  defensePower: 300
+  effects:
+  - {fileID: 0}
+  categories:
+  - {fileID: -736069267618501051, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+  - {fileID: -6678926237475497801, guid: d2f8ffe99fe86a34891a609e53ecb7b3, type: 2}
+--- !u!114 &8667684076887283765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d46d0812d1eeb1408e873ae481c5366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 17
+  cardName: "\u60F3\u3044\u51FA\u306E\u96EA\u3060\u308B\u307E"
+  description: "\u30FB\u30C7\u30C3\u30AD\u304B\u3089\u30AB\u30FC\u30C9\u30921\u679A\u30C9\u30ED\u30FC\u3059\u308B"
+  artwork: image_00016_
+  cost: 3
+  type: 1
+  activationTiming: 
+  spellType: 0
+  effectValue: 0
+  effects:
+  - {fileID: -6783763616484269250}
+  canActivateOnOpponentTurn: 1

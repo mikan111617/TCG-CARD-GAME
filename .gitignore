@@ -1,0 +1,10 @@
+.plastic/
+.utmp/
+.vscode/
+Packages/
+Assembly*
+*.meta*
+System.*
+Library/
+Assets/TextMesh Pro/Fonts/PixelMplus10-Regular SDF.asset
+Assets/TextMesh Pro/Fonts/PixelMplus10-Regular SDF 1.asset

@@ -1,0 +1,707 @@
+{
+  "elements": [
+    {
+      "name": "Background",
+      "type": "Image",
+      "color": [0.15, 0.15, 0.3, 1.0],
+      "anchorPreset": "stretch",
+      "position": [0, 0],
+      "size": [0, 0]
+    },
+    {
+      "name": "Player1Area",
+      "type": "Empty",
+      "anchorPreset": "bottomleft",
+      "position": [200, 150],
+      "size": [400, 300],
+      "children": [
+        {
+          "name": "LifePanel",
+          "type": "Panel",
+          "color": [0.0, 0.0, 0.0, 0.5],
+          "anchorPreset": "topleft",
+          "position": [0, 0],
+          "size": [200, 80],
+          "children": [
+            {
+              "name": "LifePointText",
+              "type": "Text",
+              "text": "ライフポイント\n10000",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [180, 70]
+            }
+          ]
+        },
+        {
+          "name": "DeckPanel",
+          "type": "Panel",
+          "color": [0.5, 0.85, 1.0, 1.0],
+          "anchorPreset": "topleft",
+          "position": [80, -100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "DeckText",
+              "type": "Text",
+              "text": "デッキ\n35",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [140, 70]
+            }
+          ]
+        },
+        {
+          "name": "GraveyardPanel",
+          "type": "Panel",
+          "color": [0.5, 0.85, 1.0, 1.0],
+          "anchorPreset": "topleft",
+          "position": [250, -100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "GraveyardText",
+              "type": "Text",
+              "text": "捨て札\n0",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [140, 70]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Player2Area",
+      "type": "Empty",
+      "anchorPreset": "topleft",
+      "position": [200, -150],
+      "size": [400, 300],
+      "children": [
+        {
+          "name": "LifePanel",
+          "type": "Panel",
+          "color": [0.0, 0.0, 0.0, 0.5],
+          "anchorPreset": "topleft",
+          "position": [0, 0],
+          "size": [200, 80],
+          "children": [
+            {
+              "name": "LifePointText",
+              "type": "Text",
+              "text": "ライフポイント\n10000",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [180, 70]
+            }
+          ]
+        },
+        {
+          "name": "DeckPanel",
+          "type": "Panel",
+          "color": [0.5, 0.85, 1.0, 1.0],
+          "anchorPreset": "topleft",
+          "position": [80, -100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "DeckText",
+              "type": "Text",
+              "text": "デッキ\n35",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [140, 70]
+            }
+          ]
+        },
+        {
+          "name": "GraveyardPanel",
+          "type": "Panel",
+          "color": [0.5, 0.85, 1.0, 1.0],
+          "anchorPreset": "topleft",
+          "position": [250, -100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "GraveyardText",
+              "type": "Text",
+              "text": "捨て札\n0",
+              "fontSize": 24,
+              "alignment": "center",
+              "color": [1.0, 1.0, 1.0, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [140, 70]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StageCardArea",
+      "type": "Empty",
+      "anchorPreset": "middleleft",
+      "position": [150, 0],
+      "size": [200, 400],
+      "layoutGroup": "vertical",
+      "layoutSettings": {
+        "spacing": 20,
+        "childAlignment": 4
+      },
+      "children": [
+        {
+          "name": "StageCard1",
+          "type": "Panel",
+          "color": [0.66, 0.85, 0.66, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "StageCardText",
+              "type": "Text",
+              "text": "ステージカード",
+              "fontSize": 18,
+              "alignment": "center",
+              "color": [0.0, 0.0, 0.0, 1.0],
+              "anchorPreset": "topcenter",
+              "position": [0, -10],
+              "size": [140, 30]
+            }
+          ]
+        },
+        {
+          "name": "StageCard2",
+          "type": "Panel",
+          "color": [0.66, 0.85, 0.66, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, -100],
+          "size": [150, 200],
+          "children": [
+            {
+              "name": "StageCardText",
+              "type": "Text",
+              "text": "ステージカード",
+              "fontSize": 18,
+              "alignment": "center",
+              "color": [0.0, 0.0, 0.0, 1.0],
+              "anchorPreset": "topcenter",
+              "position": [0, -10],
+              "size": [140, 30]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CharacterCardField",
+      "type": "Empty",
+      "anchorPreset": "middlecenter",
+      "position": [0, 0],
+      "size": [900, 400],
+      "children": [
+        {
+          "name": "Player1Characters",
+          "type": "Empty",
+          "anchorPreset": "bottomcenter",
+          "position": [0, -100],
+          "size": [900, 160],
+          "layoutGroup": "horizontal",
+          "layoutSettings": {
+            "spacing": 20,
+            "childAlignment": 4,
+            "padding": [10, 10, 0, 0]
+          },
+          "children": [
+            {
+              "name": "CharSlot1",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot2",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot3",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot4",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot5",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            }
+          ]
+        },
+        {
+          "name": "Player2Characters",
+          "type": "Empty",
+          "anchorPreset": "topcenter",
+          "position": [0, 100],
+          "size": [900, 160],
+          "layoutGroup": "horizontal",
+          "layoutSettings": {
+            "spacing": 20,
+            "childAlignment": 4,
+            "padding": [10, 10, 0, 0]
+          },
+          "children": [
+            {
+              "name": "CharSlot1",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot2",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot3",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot4",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "CharSlot5",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpellFieldArea",
+      "type": "Empty",
+      "anchorPreset": "middlecenter",
+      "position": [0, 0],
+      "size": [900, 600],
+      "children": [
+        {
+          "name": "Player1Spells",
+          "type": "Empty",
+          "anchorPreset": "bottomcenter",
+          "position": [0, -250],
+          "size": [500, 160],
+          "layoutGroup": "horizontal",
+          "layoutSettings": {
+            "spacing": 20,
+            "childAlignment": 4
+          },
+          "children": [
+            {
+              "name": "SpellSlot1",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "SpellSlot2",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "SpellSlot3",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            }
+          ]
+        },
+        {
+          "name": "Player2Spells",
+          "type": "Empty",
+          "anchorPreset": "topcenter",
+          "position": [0, 250],
+          "size": [500, 160],
+          "layoutGroup": "horizontal",
+          "layoutSettings": {
+            "spacing": 20,
+            "childAlignment": 4
+          },
+          "children": [
+            {
+              "name": "SpellSlot1",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "SpellSlot2",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            },
+            {
+              "name": "SpellSlot3",
+              "type": "Panel",
+              "color": [1.0, 0.9, 0.9, 1.0],
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [150, 200]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Player1Hand",
+      "type": "Panel",
+      "color": [1.0, 0.85, 0.0, 0.9],
+      "anchorPreset": "bottomcenter",
+      "position": [0, 70],
+      "size": [800, 140],
+      "layoutGroup": "horizontal",
+      "layoutSettings": {
+        "spacing": 5,
+        "childAlignment": 4,
+        "padding": [10, 10, 10, 10]
+      },
+      "children": [
+        {
+          "name": "CardSlot1",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot2",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot3",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot4",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot5",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot6",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot7",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        }
+      ]
+    },
+    {
+      "name": "Player2Hand",
+      "type": "Panel",
+      "color": [1.0, 0.85, 0.0, 0.9],
+      "anchorPreset": "topcenter",
+      "position": [0, -70],
+      "size": [800, 140],
+      "layoutGroup": "horizontal",
+      "layoutSettings": {
+        "spacing": 5,
+        "childAlignment": 4,
+        "padding": [10, 10, 10, 10]
+      },
+      "children": [
+        {
+          "name": "CardSlot1",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot2",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot3",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot4",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot5",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot6",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        },
+        {
+          "name": "CardSlot7",
+          "type": "Panel",
+          "color": [1.0, 1.0, 0.8, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [90, 120]
+        }
+      ]
+    },
+    {
+      "name": "EnergyDisplay1",
+      "type": "Panel",
+      "color": [0.25, 0.5, 1.0, 0.8],
+      "anchorPreset": "middleright",
+      "position": [-100, -200],
+      "size": [100, 100],
+      "pivot": [0.5, 0.5],
+      "children": [
+        {
+          "name": "EnergyValue",
+          "type": "Text",
+          "text": "4",
+          "fontSize": 36,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [80, 60]
+        },
+        {
+          "name": "EnergyLabel",
+          "type": "Text",
+          "text": "エナジー",
+          "fontSize": 18,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "bottomcenter",
+          "position": [0, -35],
+          "size": [90, 30]
+        }
+      ]
+    },
+    {
+      "name": "EnergyDisplay2",
+      "type": "Panel",
+      "color": [0.25, 0.5, 1.0, 0.8],
+      "anchorPreset": "middleright",
+      "position": [-100, 200],
+      "size": [100, 100],
+      "pivot": [0.5, 0.5],
+      "children": [
+        {
+          "name": "EnergyValue",
+          "type": "Text",
+          "text": "4",
+          "fontSize": 36,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "middlecenter",
+          "position": [0, 0],
+          "size": [80, 60]
+        },
+        {
+          "name": "EnergyLabel",
+          "type": "Text",
+          "text": "エナジー",
+          "fontSize": 18,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "bottomcenter",
+          "position": [0, -35],
+          "size": [90, 30]
+        }
+      ]
+    },
+    {
+      "name": "CardReferencePanel",
+      "type": "Panel",
+      "color": [0.0, 0.0, 0.0, 0.5],
+      "anchorPreset": "middleright",
+      "position": [-150, 0],
+      "size": [300, 400],
+      "children": [
+        {
+          "name": "HeaderText",
+          "type": "Text",
+          "text": "参照中のカード詳細",
+          "fontSize": 24,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -20],
+          "size": [280, 40]
+        },
+        {
+          "name": "CardImage",
+          "type": "Panel",
+          "color": [0.9, 0.7, 0.7, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -70],
+          "size": [200, 200]
+        },
+        {
+          "name": "CardDetails",
+          "type": "Text",
+          "text": "名前: 知的少女レイン\nATK: 1400 DEF: 1400\n\n効果：\n1ターンに一度、\n相手のキャラクターカードを奪う。",
+          "fontSize": 18,
+          "alignment": "left",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -280],
+          "size": [280, 160]
+        }
+      ]
+    },
+    {
+      "name": "TurnInfo",
+      "type": "Empty",
+      "anchorPreset": "topcenter",
+      "position": [0, -50],
+      "size": [300, 100],
+      "children": [
+        {
+          "name": "CurrentPlayerText",
+          "type": "Text",
+          "text": "現在のプレイヤー: プレイヤー1",
+          "fontSize": 20,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -20],
+          "size": [280, 30]
+        },
+        {
+          "name": "PhaseText",
+          "type": "Text",
+          "text": "フェイズ: アクション",
+          "fontSize": 20,
+          "alignment": "center",
+          "color": [1.0, 1.0, 1.0, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -50],
+          "size": [280, 30]
+        },
+        {
+          "name": "EndTurnButton",
+          "type": "Button",
+          "text": "ターン終了",
+          "fontSize": 18,
+          "color": [0.4, 0.4, 0.8, 1.0],
+          "anchorPreset": "topcenter",
+          "position": [0, -90],
+          "size": [150, 40]
+        }
+      ]
+    }
+  ]
+}

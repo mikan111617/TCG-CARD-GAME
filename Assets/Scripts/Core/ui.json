@@ -1,0 +1,81 @@
+{
+  "elements": [
+    {
+      "name": "CardConfirmationDialog",
+      "type": "Empty",
+      "anchorPreset": "stretch",
+      "children": [
+        {
+          "name": "DialogPanel",
+          "type": "Panel",
+          "color": [0.2, 0.2, 0.2, 0.9],
+          "anchorPreset": "middlecenter",
+          "size": [500, 400],
+          "children": [
+            {
+              "name": "TitleText",
+              "type": "Text",
+              "text": "カードを使用しますか？",
+              "fontSize": 28,
+              "alignment": "center",
+              "color": [1, 1, 1, 1],
+              "anchorPreset": "topcenter",
+              "position": [0, -40],
+              "size": [450, 50]
+            },
+            {
+              "name": "MessageText",
+              "type": "Text",
+              "text": "このカードを使用すると、エナジーを消費します。",
+              "fontSize": 20,
+              "alignment": "center",
+              "color": [1, 1, 1, 1],
+              "anchorPreset": "topcenter",
+              "position": [0, -90],
+              "size": [450, 60]
+            },
+            {
+              "name": "CardDisplayPosition",
+              "type": "Empty",
+              "anchorPreset": "middlecenter",
+              "position": [0, 0],
+              "size": [200, 280]
+            },
+            {
+              "name": "ButtonPanel",
+              "type": "Panel",
+              "color": [0.2, 0.2, 0.2, 0],
+              "anchorPreset": "bottomcenter",
+              "position": [0, 40],
+              "size": [420, 60],
+              "layoutGroup": "horizontal",
+              "layoutSettings": {
+                "spacing": 30,
+                "padding": [10, 10, 10, 10],
+                "childAlignment": 4
+              },
+              "children": [
+                {
+                  "name": "ConfirmButton",
+                  "type": "Button",
+                  "text": "使用する",
+                  "fontSize": 24,
+                  "color": [0.2, 0.6, 0.2, 1],
+                  "size": [180, 60]
+                },
+                {
+                  "name": "CancelButton",
+                  "type": "Button",
+                  "text": "キャンセル",
+                  "fontSize": 24,
+                  "color": [0.6, 0.2, 0.2, 1],
+                  "size": [180, 60]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

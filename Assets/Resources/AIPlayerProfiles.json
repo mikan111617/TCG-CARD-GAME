@@ -1,0 +1,18 @@
+{
+    "profiles": [
+        {
+            "name": "AIサンプル君",
+            "difficulty": 1,
+            "deckId": 3,
+            "description": "テスト用のAI君",
+            "iconPath": "Assets/Materials/illustraion_00099_.png"
+        },
+        {
+            "name": "2号",
+            "difficulty": 2,
+            "deckId": 3,
+            "description": "2号",
+            "iconPath": "Assets/Materials/illustraion_00038_.png"
+        }
+    ]
+}
